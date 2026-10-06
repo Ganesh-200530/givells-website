@@ -435,39 +435,6 @@
   update();
 })();
 
-// Ordmärket i sidfoten spelas upp från början varje gång det kommer in i bild
-(() => {
-  const word = document.querySelector(".site-footer__word");
-  if (!word) return;
-  new IntersectionObserver(([entry]) => {
-    if (entry.isIntersecting) {
-      word.classList.remove("wm-play");
-      void word.getBoundingClientRect(); // starta om animationen
-      word.classList.add("wm-play");
-    } else {
-      word.classList.remove("wm-play");
-    }
-  }, { threshold: 0.2 }).observe(word);
-})();
-
-// Ordmärket i sidfoten: en varm "fackla" följer muspekaren över bokstäverna
-(() => {
-  const word = document.querySelector(".site-footer__word");
-  const svg = word && word.querySelector(".wordmark");
-  const torch = svg && svg.querySelector(".wm-torch");
-  if (!torch || !matchMedia("(hover: hover) and (pointer: fine)").matches) return;
-  const pt = svg.createSVGPoint();
-  word.addEventListener("pointermove", (e) => {
-    pt.x = e.clientX;
-    pt.y = e.clientY;
-    const p = pt.matrixTransform(svg.getScreenCTM().inverse());
-    torch.setAttribute("cx", p.x.toFixed(1));
-    torch.setAttribute("cy", p.y.toFixed(1));
-    word.classList.add("is-lit");
-  });
-  word.addEventListener("pointerleave", () => word.classList.remove("is-lit"));
-})();
-
 // Galleriet i Arbeten: pilar, räknare, förloppslinje och dra med musen (svep fungerar som vanligt)
 (() => {
   const track = document.querySelector(".slider__track");

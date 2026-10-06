@@ -1776,44 +1776,13 @@ html.menu-open { overflow: hidden; }
 .site-footer__social:hover { color: var(--ember-text); }
 .site-footer__social:hover .icon { border-color: var(--ember); background: var(--ember); color: var(--on-ember); }
 
-/* Stort ordmärke (SVG): konturen ritas, värmen stiger, ljussvep och en fackla som följer pekaren */
-.site-footer__word {
-  margin-top: clamp(28px, 4vw, 48px);
-  user-select: none;
-}
-.wordmark {
-  display: block;
-  width: 100%;
-  height: auto;
-  max-height: clamp(64px, 13vw, 168px);
-  overflow: visible;
-}
-.wm-text {
-  font-family: var(--serif);
-  font-size: 268px;
-  font-weight: 600;
-}
-.wm-stroke {
-  fill: none;
-  stroke: color-mix(in srgb, var(--bone) 34%, transparent);
-  stroke-width: 1.3;
-  stroke-linejoin: round;
-}
-.wm-stop-strong { stop-color: var(--ember); stop-opacity: 0.62; }
-.wm-stop-soft { stop-color: var(--ember); stop-opacity: 0.2; }
-.wm-stop-none { stop-color: var(--ember); stop-opacity: 0; }
-.wm-stop-torch { stop-color: var(--ember); stop-opacity: 0.85; }
-.wm-heat { transform-box: fill-box; transform-origin: 50% 100%; }
-.wm-torch { opacity: 0; transition: opacity 0.5s ease; }
-.site-footer__word.is-lit .wm-torch { opacity: 1; }
-
 .site-footer__bottom {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   gap: 12px 24px;
-  margin-top: 18px;
+  margin-top: clamp(32px, 4vw, 48px);
   padding-block: 18px 22px;
   background: linear-gradient(var(--line), var(--line)) var(--gutter) 0 / calc(100% - var(--gutter) * 2) 1px no-repeat;
   font-size: 0.85rem;
@@ -2323,14 +2292,6 @@ html.is-loading { overflow: hidden; }
   .reveal-on .contact__info .steps li:nth-child(3) { transition-delay: 710ms; }
   .reveal-on .contact__info.is-visible .steps li { opacity: 1; translate: 0 0; }
 
-  /* Ordmärket i sidfoten spelas upp varje gång det syns (main.js sätter .wm-play), och loopar:
-     konturen ritas, värmen stiger och andas, ett ljus sveper förbi, sedan börjar det om */
-  .js .site-footer__word .wm-stroke { stroke-dasharray: 1700; stroke-dashoffset: 1700; }
-  .js .site-footer__word .wm-heat { transform: scaleY(0); }
-  .js .site-footer__word.wm-play .wm-stroke { animation: wm-draw 11s cubic-bezier(0.45, 0, 0.2, 1) infinite; }
-  .js .site-footer__word.wm-play .wm-heat { animation: wm-heat 11s ease-in-out infinite; }
-  .js .site-footer__word.wm-play .wm-shine { animation: wm-sweep 5.5s ease-in-out 2.4s infinite; }
-
   /* Tjänsteikonerna ritas när kortet dyker upp, sedan lever detaljerna */
   .reveal-on .service[data-reveal] .service__icon .ic-line {
     stroke-dasharray: 1;
@@ -2363,24 +2324,6 @@ html.is-loading { overflow: hidden; }
 @keyframes ic-trowel {
   0%, 100% { transform: rotate(0deg) translateX(0); }
   50% { transform: rotate(-8deg) translateX(-3px); }
-}
-@keyframes wm-draw {
-  0% { stroke-dashoffset: 1700; }
-  24%, 86% { stroke-dashoffset: 0; }
-  100% { stroke-dashoffset: 1700; }
-}
-@keyframes wm-heat {
-  0%, 12% { transform: scaleY(0); }
-  32% { transform: scaleY(1); }
-  46% { transform: scaleY(0.8); }
-  60% { transform: scaleY(1); }
-  74% { transform: scaleY(0.84); }
-  86% { transform: scaleY(1); }
-  100% { transform: scaleY(0); }
-}
-@keyframes wm-sweep {
-  0% { transform: translateX(0); }
-  45%, 100% { transform: translateX(2000px); }
 }
 @keyframes shimmer {
   0% { background-position: 100% 0; }
@@ -2523,7 +2466,6 @@ html.is-loading { overflow: hidden; }
   .site-footer__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 36px 20px; }
   .site-footer__grid > :last-child { grid-column: 1 / -1; }
   .site-footer__brand img { width: 88px; }
-  .wm-stroke { stroke-width: 3; }
   .footer-cta { padding-block: 40px 28px; gap: 22px; }
   .footer-cta__actions { flex-direction: column; align-items: stretch; gap: 12px; }
   .footer-cta__actions .btn,
