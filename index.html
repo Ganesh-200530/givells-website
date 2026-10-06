@@ -1,0 +1,809 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kakelugnar &amp; murverk i Gävleborg | Givells Kakelugnsmakeri</title>
+  <meta name="description" content="Kakelugnar, skorstensarbeten samt mur- och putsarbeten i Gävleborg. Utbildad kakelugnsmakare och murare. Ring 073-300 32 28 för kostnadsfri offert.">
+  <meta name="theme-color" content="#14110e">
+  <link rel="canonical" href="https://givellskakelugnsmakeri.se/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="sv_SE">
+  <meta property="og:site_name" content="Givells Kakelugnsmakeri &amp; Murverk">
+  <meta property="og:title" content="Kakelugnar och murverk i Gävleborg">
+  <meta property="og:description" content="Specialist på kakelugnar, spisar och murarbeten. Hantverk med passion och precision.">
+  <meta property="og:url" content="https://givellskakelugnsmakeri.se/">
+  <meta property="og:image" content="https://givellskakelugnsmakeri.se/assets/img/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="preload" href="assets/fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/figtree.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/video/hero-laptop-poster.webp" as="image" media="(orientation: landscape)">
+  <link rel="preload" href="assets/video/hero-mobile-poster.webp" as="image" media="(orientation: portrait)">
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    // Tema före första renderingen: sparat val, annars enhetens inställning (mörkt som standard)
+    (function () {
+      var d = document.documentElement, t = null;
+      try { t = localStorage.getItem("givells-theme"); } catch (e) {}
+      if (t !== "light" && t !== "dark") {
+        t = window.matchMedia && matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+      }
+      d.setAttribute("data-theme", t);
+      var m = document.querySelector('meta[name="theme-color"]');
+      if (m) m.setAttribute("content", t === "light" ? "#f5f6f3" : "#14110e");
+    })();
+
+    // Introt visas vid varje sidladdning, utom för besökare som valt reducerad rörelse
+    (function () {
+      var d = document.documentElement, intro = true;
+      d.classList.add("js");
+      try {
+        intro = !matchMedia("(prefers-reduced-motion: reduce)").matches;
+      } catch (e) {}
+      d.classList.add(intro ? "is-loading" : "is-ready");
+      if (intro) setTimeout(function () { d.classList.remove("is-loading"); d.classList.add("is-ready"); }, 9000);
+    })();
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HomeAndConstructionBusiness",
+    "name": "Givells Kakelugnsmakeri & Murverk",
+    "legalName": "Givells Kakelugnsmakeri och murverk AB",
+    "taxID": "559492-2238",
+    "url": "https://givellskakelugnsmakeri.se/",
+    "logo": "https://givellskakelugnsmakeri.se/assets/img/logo.png",
+    "image": "https://givellskakelugnsmakeri.se/assets/img/og-image.jpg",
+    "description": "Kakelugnar, skorstensarbeten samt mur- och putsarbeten i Gävleborg.",
+    "telephone": "+46733003228",
+    "email": "teodor@givellskakelugnsmakeri.se",
+    "address": { "@type": "PostalAddress", "addressRegion": "Gävleborgs län", "addressCountry": "SE" },
+    "areaServed": { "@type": "AdministrativeArea", "name": "Gävleborgs län" },
+    "founder": { "@type": "Person", "name": "Teodor Ramirez Givell", "jobTitle": "Kakelugnsmakare och murare" },
+    "knowsAbout": ["Kakelugnar", "Skorstensarbeten", "Murverk", "Putsarbeten", "Byggnadsvård"],
+    "sameAs": ["https://www.instagram.com/givellskakelugnsmakeri"]
+  }
+  </script>
+</head>
+<body>
+  <!-- Intro: valvet ritas, kakelugnen byggs, elden tänds – sedan öppnas valvet mot sidan -->
+  <div class="loader on-dark">
+    <svg class="loader__curtain" aria-hidden="true"><path class="loader__curtain-path" fill-rule="evenodd"/></svg>
+    <div class="loader__inner" aria-hidden="true">
+      <svg class="loader__mark" viewBox="0 0 200 232" aria-hidden="true">
+        <defs><radialGradient id="ld-glow-grad"><stop offset="0" stop-color="#d9743f" stop-opacity=".5"/><stop offset="1" stop-color="#d9743f" stop-opacity="0"/></radialGradient></defs>
+        <g class="ld-warmth"><circle class="ld-glow" cx="100" cy="176" r="78" fill="url(#ld-glow-grad)"/></g>
+        <g class="ld-arch" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path class="ld-draw" pathLength="1" style="--t:0ms;--dur:650ms" d="M100 222H6"/>
+            <path class="ld-draw" pathLength="1" style="--t:0ms;--dur:650ms" d="M100 222H194"/>
+            <path class="ld-draw" pathLength="1" style="--t:150ms;--dur:450ms" d="M24 222V118"/>
+            <path class="ld-draw" pathLength="1" style="--t:150ms;--dur:450ms" d="M42 222V118"/>
+            <path class="ld-draw" pathLength="1" style="--t:150ms;--dur:450ms" d="M158 222V118"/>
+            <path class="ld-draw" pathLength="1" style="--t:150ms;--dur:450ms" d="M176 222V118"/>
+            <path class="ld-draw" pathLength="1" style="--t:450ms;--dur:450ms" d="M16 108H50V118H16Z"/>
+            <path class="ld-draw" pathLength="1" style="--t:450ms;--dur:450ms" d="M184 108H150V118H184Z"/>
+            <path class="ld-draw" pathLength="1" style="--t:600ms;--dur:650ms" d="M24 108A76 76 0 0 1 100 32"/>
+            <path class="ld-draw" pathLength="1" style="--t:600ms;--dur:650ms" d="M176 108A76 76 0 0 0 100 32"/>
+            <path class="ld-draw" pathLength="1" style="--t:600ms;--dur:650ms" d="M42 108A58 58 0 0 1 100 50"/>
+            <path class="ld-draw" pathLength="1" style="--t:600ms;--dur:650ms" d="M158 108A58 58 0 0 0 100 50"/>
+            <path class="ld-draw" pathLength="1" style="--t:1150ms;--dur:250ms" d="M154.5 88.16L171.42 82.01"/>
+            <path class="ld-draw" pathLength="1" style="--t:1220ms;--dur:250ms" d="M144.43 70.72L158.22 59.15"/>
+            <path class="ld-draw" pathLength="1" style="--t:1290ms;--dur:250ms" d="M129 57.77L138 42.18"/>
+            <path class="ld-draw" pathLength="1" style="--t:1360ms;--dur:250ms" d="M110.07 50.88L113.2 33.15"/>
+            <path class="ld-draw" pathLength="1" style="--t:1360ms;--dur:250ms" d="M89.93 50.88L86.8 33.15"/>
+            <path class="ld-draw" pathLength="1" style="--t:1290ms;--dur:250ms" d="M71 57.77L62 42.18"/>
+            <path class="ld-draw" pathLength="1" style="--t:1220ms;--dur:250ms" d="M55.57 70.72L41.78 59.15"/>
+            <path class="ld-draw" pathLength="1" style="--t:1150ms;--dur:250ms" d="M45.5 88.16L28.58 82.01"/>
+        </g>
+        <g class="ld-stove">
+          <rect class="ld-tile" style="--t:800ms" x="84" y="191.8" width="9.33" height="9.2" rx="1"/>
+          <rect class="ld-tile" style="--t:800ms" x="95.33" y="191.8" width="9.33" height="9.2" rx="1"/>
+          <rect class="ld-tile" style="--t:800ms" x="106.67" y="191.8" width="9.33" height="9.2" rx="1"/>
+          <rect class="ld-tile" style="--t:865ms" x="84" y="180.6" width="9.33" height="9.2" rx="1"/>
+          <rect class="ld-tile" style="--t:865ms" x="95.33" y="180.6" width="9.33" height="9.2" rx="1"/>
+          <rect class="ld-tile" style="--t:865ms" x="106.67" y="180.6" width="9.33" height="9.2" rx="1"/>
+          <rect class="ld-tile" style="--t:930ms" x="84" y="169.4" width="9.33" height="9.2" rx="1"/>
+          <rect class="ld-tile" style="--t:930ms" x="95.33" y="169.4" width="9.33" height="9.2" rx="1"/>
+          <rect class="ld-tile" style="--t:930ms" x="106.67" y="169.4" width="9.33" height="9.2" rx="1"/>
+          <rect class="ld-tile" style="--t:995ms" x="84" y="158.2" width="9.33" height="9.2" rx="1"/>
+          <rect class="ld-tile" style="--t:995ms" x="95.33" y="158.2" width="9.33" height="9.2" rx="1"/>
+          <rect class="ld-tile" style="--t:995ms" x="106.67" y="158.2" width="9.33" height="9.2" rx="1"/>
+          <rect class="ld-tile" style="--t:1060ms" x="84" y="147" width="9.33" height="9.2" rx="1"/>
+          <rect class="ld-tile" style="--t:1060ms" x="95.33" y="147" width="9.33" height="9.2" rx="1"/>
+          <rect class="ld-tile" style="--t:1060ms" x="106.67" y="147" width="9.33" height="9.2" rx="1"/>
+          <rect class="ld-tile" style="--t:1125ms" x="84" y="129.8" width="9.33" height="9.2" rx="1"/>
+          <rect class="ld-tile" style="--t:1125ms" x="95.33" y="129.8" width="9.33" height="9.2" rx="1"/>
+          <rect class="ld-tile" style="--t:1125ms" x="106.67" y="129.8" width="9.33" height="9.2" rx="1"/>
+          <rect class="ld-tile" style="--t:1190ms" x="84" y="118.6" width="9.33" height="9.2" rx="1"/>
+          <rect class="ld-tile" style="--t:1190ms" x="95.33" y="118.6" width="9.33" height="9.2" rx="1"/>
+          <rect class="ld-tile" style="--t:1190ms" x="106.67" y="118.6" width="9.33" height="9.2" rx="1"/>
+          <rect class="ld-tile" style="--t:1255ms" x="84" y="107.4" width="9.33" height="9.2" rx="1"/>
+          <rect class="ld-tile" style="--t:1255ms" x="95.33" y="107.4" width="9.33" height="9.2" rx="1"/>
+          <rect class="ld-tile" style="--t:1255ms" x="106.67" y="107.4" width="9.33" height="9.2" rx="1"/>
+          <rect class="ld-tile" style="--t:1320ms" x="84" y="96.2" width="9.33" height="9.2" rx="1"/>
+          <rect class="ld-tile" style="--t:1320ms" x="95.33" y="96.2" width="9.33" height="9.2" rx="1"/>
+          <rect class="ld-tile" style="--t:1320ms" x="106.67" y="96.2" width="9.33" height="9.2" rx="1"/>
+          <rect class="ld-tile" style="--t:1385ms" x="84" y="85" width="9.33" height="9.2" rx="1"/>
+          <rect class="ld-tile" style="--t:1385ms" x="95.33" y="85" width="9.33" height="9.2" rx="1"/>
+          <rect class="ld-tile" style="--t:1385ms" x="106.67" y="85" width="9.33" height="9.2" rx="1"/>
+          <g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round">
+            <path class="ld-draw" pathLength="1" style="--t:700ms;--dur:600ms" d="M82 222V210H118V222"/>
+            <path class="ld-draw" pathLength="1" style="--t:760ms;--dur:600ms" d="M79 210V202H121V210H79"/>
+            <path class="ld-draw" pathLength="1" style="--t:820ms;--dur:600ms" d="M83 202V146H117V202"/>
+            <path class="ld-draw" pathLength="1" style="--t:900ms;--dur:600ms" d="M80 146V140H120V146H80"/>
+            <path class="ld-draw" pathLength="1" style="--t:960ms;--dur:600ms" d="M83 140V84H117V140"/>
+            <path class="ld-draw" pathLength="1" style="--t:1040ms;--dur:600ms" d="M79 84V76H121V84H79"/>
+            <path class="ld-draw" pathLength="1" style="--t:1100ms;--dur:600ms" d="M84 76V64H116V76"/>
+            <path class="ld-draw" pathLength="1" style="--t:1160ms;--dur:600ms" d="M89 64V59H111V64"/>
+          </g>
+          <path class="ld-opening" style="--t:1250ms" d="M93 130V106A7 7 0 0 1 107 106V130Z"/>
+          <rect class="ld-opening" style="--t:1250ms" x="90.5" y="163" width="19" height="24" rx="1"/>
+          <path class="ld-flame" d="M100 185C94.5 183 93.5 177.5 97 172.5C97.3 175.6 99.2 176.6 100.6 175.2C99.4 171.8 101.6 168.6 103.6 167.2C103.2 170.8 106.6 173.6 106.4 178C106.2 182.2 103.6 185 100 185Z"/>
+        </g>
+      </svg>
+      <div class="loader__text">
+        <p class="loader__word"><span style="--i:0">G</span><span style="--i:1">I</span><span style="--i:2">V</span><span style="--i:3">E</span><span style="--i:4">L</span><span style="--i:5">L</span><span style="--i:6">S</span></p>
+        <p class="loader__sub">Kakelugnsmakeri &amp; Murverk</p>
+        <div class="loader__progress">
+          <span class="loader__status">Tänder brasan</span>
+          <span class="loader__pct">0%</span>
+          <span class="loader__bar"><span></span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-phone" viewBox="0 0 24 24"><path fill="currentColor" d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><path fill="currentColor" d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-quote" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="4" width="14" height="17" rx="2.5"/><path d="M9 4.5V3h6v1.5M8.5 10h7M8.5 13.5h7M8.5 17h4"/></g></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/></g><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"/></symbol>
+  </svg>
+
+  <!-- Glöd bakom de mörka partierna, ritas i embers.js -->
+  <canvas class="embers" aria-hidden="true"></canvas>
+
+  <a class="skip-link" href="#main">Hoppa till innehållet</a>
+
+  <header class="site-header is-over-dark">
+    <div class="wrap site-header__inner">
+      <a class="brand" href="#top" aria-label="Givells Kakelugnsmakeri &amp; Murverk – till toppen">
+        <img src="assets/img/logo-mark.png" width="240" height="208" alt="">
+        <span class="brand__text">
+          <span class="brand__name">Givells</span>
+          <span class="brand__sub">Kakelugnsmakeri &amp; Murverk</span>
+        </span>
+      </a>
+      <nav class="site-nav" aria-label="Huvudmeny">
+        <ul>
+          <li><a href="#tjanster">Tjänster</a></li>
+          <li><a href="#arbeten">Arbeten</a></li>
+          <li><a href="#kakelugnen">Kakelugnen</a></li>
+          <li><a href="#om">Om Teodor</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+        <span class="site-nav__indicator" aria-hidden="true"></span>
+      </nav>
+      <div class="site-header__actions">
+        <button class="theme-toggle" type="button" aria-label="Byt till ljust läge">
+          <svg class="theme-toggle__icon" viewBox="0 0 24 24" aria-hidden="true">
+            <mask id="tt-mask"><rect width="24" height="24" fill="#fff"/><circle class="tt-cut" cx="17" cy="7" r="6.5" fill="#000"/></mask>
+            <circle class="tt-core" cx="12" cy="12" r="8" fill="currentColor" mask="url(#tt-mask)"/>
+            <g class="tt-rays" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
+              <path d="M12 1.5v2.2M12 20.3v2.2M1.5 12h2.2M20.3 12h2.2M4.6 4.6l1.5 1.5M17.9 17.9l1.5 1.5M4.6 19.4l1.5-1.5M17.9 6.1l1.5-1.5"/>
+            </g>
+          </svg>
+        </button>
+        <a class="btn btn--ember btn--sm btn--pulse" href="tel:+46733003228" aria-label="Ring 073-300 32 28">
+          <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
+          <span class="hide-sm">073-300 32 28</span><span class="show-sm">Ring</span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="meny">
+          <span class="menu-toggle__lines" aria-hidden="true"></span>
+          <span class="visually-hidden">Meny</span>
+        </button>
+      </div>
+      <span class="site-header__progress" aria-hidden="true"></span>
+    </div>
+  </header>
+
+  <!-- Mobilmeny: öppnas med menyknappen, reser sig som ett valv -->
+  <nav class="menu on-dark" id="meny" aria-label="Meny" inert>
+    <div class="wrap menu__inner">
+      <ol class="menu__links">
+        <li style="--i:0"><a href="#tjanster"><span class="menu__num">01</span>Tjänster</a></li>
+        <li style="--i:1"><a href="#arbeten"><span class="menu__num">02</span>Arbeten</a></li>
+        <li style="--i:2"><a href="#kakelugnen"><span class="menu__num">03</span>Kakelugnen i 3D</a></li>
+        <li style="--i:3"><a href="#om"><span class="menu__num">04</span>Om Teodor</a></li>
+        <li style="--i:4"><a href="#kontakt"><span class="menu__num">05</span>Kontakt</a></li>
+      </ol>
+      <div class="menu__contact" style="--i:5">
+        <a class="btn btn--ember btn--block" href="tel:+46733003228">
+          <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
+          Ring 073-300 32 28
+        </a>
+        <a class="menu__mail" href="mailto:teodor@givellskakelugnsmakeri.se">teodor@givellskakelugnsmakeri.se</a>
+        <p class="menu__meta">Kakelugnar &amp; murverk i Gävleborg · <a href="https://www.instagram.com/givellskakelugnsmakeri" rel="noopener" target="_blank">Instagram</a></p>
+      </div>
+    </div>
+  </nav>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero" id="top">
+      <div class="hero__stage on-dark">
+        <!-- Bakgrundsfilm: väljs efter skärmens orientering i main.js. Två videoelement ger en mjuk övertoning i loopen. -->
+        <div class="hero__media" aria-hidden="true">
+          <video class="hero__video is-active" muted playsinline preload="none"
+                 data-src-landscape="assets/video/hero-laptop.mp4"
+                 data-src-portrait="assets/video/hero-mobile.mp4"></video>
+          <video class="hero__video" muted playsinline preload="none"></video>
+        </div>
+
+        <div class="wrap hero__inner">
+          <div class="hero__text">
+            <p class="label" data-hero style="--d:0">Kakelugnsmakare &amp; murare · Gävleborg</p>
+            <h1><span class="word"><span style="--d:1">Kakelugnar</span></span> <span class="word"><span style="--d:2">och</span></span> <span class="word"><span style="--d:3">murverk</span></span> <span class="word"><span style="--d:4">som</span></span> <span class="word"><span style="--d:5">värmer</span></span> <em><span class="word"><span style="--d:6">i</span></span> <span class="word"><span style="--d:7">generationer</span></span></em></h1>
+            <p class="hero__lead" data-hero style="--d:8">Vi restaurerar, sätter om och murar kakelugnar, skorstenar och puts i hela Gävleborg, med traditionella tekniker och omsorg om varje detalj.</p>
+            <p class="hero__tags" data-hero style="--d:8" aria-hidden="true">Kakelugnar <i></i> Skorstenar <i></i> Mur &amp; puts</p>
+            <div class="hero__cta" data-hero style="--d:9">
+              <a class="cta cta--call" href="tel:+46733003228">
+                <span class="cta__icon" aria-hidden="true"><svg class="icon"><use href="#i-phone"/></svg></span>
+                <span class="cta__text"><strong>Ring Teodor</strong><small>073-300 32 28</small></span>
+              </a>
+              <a class="cta cta--quote" href="#kontakt" data-offer>
+                <span class="cta__icon" aria-hidden="true"><svg class="icon"><use href="#i-quote"/></svg></span>
+                <span class="cta__text"><strong>Begär offert</strong><small>Kostnadsfritt</small></span>
+                <svg class="icon icon--arrow" aria-hidden="true"><use href="#i-arrow"/></svg>
+              </a>
+            </div>
+            <div class="hero__person" data-hero style="--d:10">
+              <img src="assets/img/teodor-avatar.webp" width="160" height="160" alt="Teodor Ramirez Givell">
+              <p><strong>Teodor Ramirez Givell</strong><span>Utbildad murare och kakelugnsmakare</span></p>
+              <a class="hero__mail" href="mailto:teodor@givellskakelugnsmakeri.se">
+                <svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg>
+                teodor@givellskakelugnsmakeri.se
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Fakta i en glasrad längst ned i filmen; sista rutan leder till 3D-kakelugnen -->
+        <div class="wrap hero__bar-wrap">
+          <ul class="hero__bar" data-hero style="--d:11">
+            <li><strong><span data-count="13">13</span> år</strong><span>i branschen</span></li>
+            <li><strong>Kostnadsfri</strong><span>offert och konsultation</span></li>
+            <li><strong>Hela Gävleborg</strong><span>lokalt hantverk, nära dig</span></li>
+            <li class="hero__bar-3d">
+              <a href="#kakelugnen">
+                <span class="cube" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></span>
+                <span><strong>Kakelugnen i&nbsp;3D</strong><span>Se hur den fungerar</span></span>
+                <svg class="icon icon--arrow" aria-hidden="true"><use href="#i-arrow"/></svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tjänster -->
+    <section class="section section--kakel" id="tjanster" aria-labelledby="tjanster-rubrik">
+      <div class="wrap">
+        <div class="section-head" data-reveal>
+          <div>
+            <p class="label">Tjänster</p>
+            <h2 id="tjanster-rubrik">Från kakelugn till skorsten</h2>
+          </div>
+          <p class="section-head__lead">Tre hantverk där kunskap om traditionella tekniker och material gör skillnad, i gamla hus som i nya.</p>
+        </div>
+
+        <nav class="service-jump" aria-label="Hoppa till tjänst">
+          <a href="#tjanst-kakelugnar" data-jump="0"><span>01</span>Kakelugnar</a>
+          <a href="#tjanst-skorsten" data-jump="1"><span>02</span>Skorstensarbeten</a>
+          <a href="#tjanst-mur-puts" data-jump="2"><span>03</span>Mur- och puts</a>
+        </nav>
+
+        <div class="services">
+          <article class="service" id="tjanst-kakelugnar" data-reveal style="--i:0">
+            <div class="service__media">
+              <img class="service__img" src="assets/img/tjanst-kakelugnar.webp" width="750" height="1000" loading="lazy"
+                   alt="Två kakelplattor med handmålad blå blomdekor">
+              <span class="service__chip">Från ett av våra jobb</span>
+            </div>
+            <div class="service__body">
+              <div class="service__top">
+                <span class="service__num">01</span>
+                <svg class="service__icon" viewBox="0 0 64 64" aria-hidden="true"><path class="ic-line" pathLength="1" d="M21 13h22v5H21z"/><path class="ic-line" pathLength="1" d="M23 13V9h4v4M30 13V9h4v4M37 13V9h4v4"/><path class="ic-line" pathLength="1" d="M19 18h26v3H19z"/><path class="ic-line" pathLength="1" d="M23 21h18v24H23z"/><path class="ic-line" pathLength="1" d="M23 28h18M23 38h18M32 21v7"/><path class="ic-line" pathLength="1" d="M28 31h8v7h-8z"/><path class="ic-line" pathLength="1" d="M19 45h26v4H19zM21 49h22v5H21z"/><path class="ic-line" pathLength="1" d="M10 54h44"/><path class="ic-flame" d="M32 37.2c-1.8-.7-2.2-2.4-.9-4 .1 1.1.8 1.4 1.2.8-.3-1.2.3-2.3 1.2-2.8-.1 1.3 1.2 2.1 1 3.5-.2 1.4-1.1 2.3-2.5 2.5z"/></svg>
+              </div>
+              <h3>Kakelugnar</h3>
+              <p>Vi installerar antika kakelugnar och kaminer, tätar och lagar befintliga ugnar och sköter nedmonteringen när en ugn ska flyttas. Skadat kakel restaureras och dekormålning bättras varsamt.</p>
+              <ul class="service__list"><li>Installation av antika kakelugnar och kaminer</li><li>Tätning och lagning</li><li>Nedmontering och flytt</li><li>Kakelrestaurering och dekormålning</li></ul>
+              <div class="service__actions">
+                <a class="btn btn--ember btn--sm" href="#kontakt" data-topic="Kakelugnar" data-offer>
+                  Fråga om kakelugnar
+                  <svg class="icon icon--arrow" aria-hidden="true"><use href="#i-arrow"/></svg>
+                </a>
+                <a class="service__more" href="#kakelugnen">Se en kakelugn inifrån i 3D</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="service" id="tjanst-skorsten" data-reveal style="--i:1">
+            <div class="service__media">
+              <img class="service__img" src="assets/img/tjanst-skorsten.webp" width="822" height="986" loading="lazy"
+                   alt="Skorsten i rött tegel med svart plåtavtäckning mot blå himmel">
+              <span class="service__chip">Från ett av våra jobb</span>
+            </div>
+            <div class="service__body">
+              <div class="service__top">
+                <span class="service__num">02</span>
+                <svg class="service__icon" viewBox="0 0 64 64" aria-hidden="true"><path class="ic-line" pathLength="1" d="M6 50L32 34l26 16"/><path class="ic-line" pathLength="1" d="M38 41V22h11v19"/><path class="ic-line" pathLength="1" d="M36 22h15v-4H36z"/><path class="ic-line" pathLength="1" d="M38 28h11M38 34h11M43.5 22v6M41 28v6M46 28v6M43.5 34v6"/><path class="ic-line" pathLength="1" d="M14 50v4h36v-4"/><path class="ic-smoke" d="M43 15c-3-2.5 3-4.5 0-7.5"/><path class="ic-smoke ic-smoke--2" d="M47.5 14c-2.2-2 2.2-3.6 0-6"/></svg>
+              </div>
+              <h3>Skorstensarbeten</h3>
+              <p>Vi murar nya skorstenar och tätar och underhåller befintliga, med traditionella tekniker och material som fungerar ihop med resten av huset.</p>
+              <ul class="service__list"><li>Murning av nya skorstenar</li><li>Tätning av befintliga skorstenar</li><li>Underhåll och lagning</li><li>Traditionella tekniker och material</li></ul>
+              <div class="service__actions">
+                <a class="btn btn--ember btn--sm" href="#kontakt" data-topic="Skorstensarbeten" data-offer>
+                  Fråga om skorstenar
+                  <svg class="icon icon--arrow" aria-hidden="true"><use href="#i-arrow"/></svg>
+                </a>
+                <a class="service__more" href="#arbeten">Se arbeten</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="service" id="tjanst-mur-puts" data-reveal style="--i:2">
+            <div class="service__media">
+              <img class="service__img" src="assets/img/tjanst-mur-puts.webp" width="750" height="1000" loading="lazy"
+                   alt="Nyputsad gårdsmur i ljus kulör med gatlykta">
+              <span class="service__chip">Från ett av våra jobb</span>
+            </div>
+            <div class="service__body">
+              <div class="service__top">
+                <span class="service__num">03</span>
+                <svg class="service__icon" viewBox="0 0 64 64" aria-hidden="true"><path class="ic-line" pathLength="1" d="M7 20h30v32H7z"/><path class="ic-line" pathLength="1" d="M7 28h30M7 36h30M7 44h30"/><path class="ic-line" pathLength="1" d="M15 20v8M27 20v8M11 28v8M21 28v8M31 28v8M15 36v8M27 36v8M11 44v8M21 44v8M31 44v8"/><path class="ic-line" pathLength="1" d="M4 52h40"/><g class="ic-trowel"><path class="ic-line" pathLength="1" d="M40 39l12-9 6 8-13 6z"/><path class="ic-line" pathLength="1" d="M55 34l5-4"/></g></svg>
+              </div>
+              <h3>Mur- och putsarbeten</h3>
+              <p>Murade spisar och eldstäder, renoveringar och puts. Vi arbetar också med restaurering och bevarande av kulturbyggnader: mur- och putsarbeten som varar i generationer.</p>
+              <ul class="service__list"><li>Murade spisar och eldstäder</li><li>Renovering och puts</li><li>Restaurering av kulturbyggnader</li><li>Byggnadsvård med rätt material</li></ul>
+              <div class="service__actions">
+                <a class="btn btn--ember btn--sm" href="#kontakt" data-topic="Mur- och putsarbeten" data-offer>
+                  Fråga om mur och puts
+                  <svg class="icon icon--arrow" aria-hidden="true"><use href="#i-arrow"/></svg>
+                </a>
+                <a class="service__more" href="#arbeten">Se arbeten</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Arbeten: ett skjutbart galleri (svep, dra eller använd pilarna) -->
+    <section class="section section--works" id="arbeten" aria-labelledby="arbeten-rubrik" data-embers>
+      <div class="wrap">
+        <div class="section-head" data-reveal>
+          <div>
+            <p class="label">Utvalda arbeten</p>
+            <h2 id="arbeten-rubrik">Riktiga jobb, fotade på plats</h2>
+          </div>
+          <p class="section-head__lead">Inga lånade bilder. Allt du ser här är vårt eget arbete, fotat på plats mellan 2019 och 2025.</p>
+        </div>
+      </div>
+
+      <div class="slider">
+        <div class="slider__track" tabindex="0" role="group" aria-label="Galleri med 9 bilder. Svep eller använd pilarna.">
+          <a class="work" data-reveal style="--i:0" href="assets/img/hero-kakelugn.webp" data-lightbox data-caption="Kakelugn med mässingsluckor">
+            <span class="work__frame"><img src="assets/img/hero-kakelugn.webp" width="739" height="1024" loading="lazy" alt="Vit kakelugn med mässingsluckor i ett rum med mörkgröna väggar"></span>
+            <span class="work__cap"><span>Kakelugn med mässingsluckor</span><span class="work__tag">Kakelugn</span></span>
+          </a>
+          <a class="work" data-reveal style="--i:1" href="assets/img/arbete-kakelugn-vit.webp" data-lightbox data-caption="Vit kakelugn, färdigställd">
+            <span class="work__frame"><img src="assets/img/arbete-kakelugn-vit.webp" width="720" height="960" loading="lazy" alt="Hög vit kakelugn med mässingslucka i ett ljust rum"></span>
+            <span class="work__cap"><span>Vit kakelugn, färdigställd</span><span class="work__tag">Kakelugn</span></span>
+          </a>
+          <a class="work" data-reveal style="--i:2" href="assets/img/arbete-kakellist.webp" data-lightbox data-caption="Kakellist under restaurering">
+            <span class="work__frame"><img src="assets/img/arbete-kakellist.webp" width="768" height="960" loading="lazy" alt="Vit kakellist med reliefmönster på en arbetsbänk"></span>
+            <span class="work__cap"><span>Kakellist under restaurering</span><span class="work__tag">Restaurering</span></span>
+          </a>
+          <a class="work" data-reveal style="--i:3" href="assets/img/arbete-tegelfasad.webp" data-lightbox data-caption="Rundad fasad i mörkt tegel">
+            <span class="work__frame"><img src="assets/img/arbete-tegelfasad.webp" width="720" height="960" loading="lazy" alt="Rundad husfasad murad i mörkt, brunt tegel"></span>
+            <span class="work__cap"><span>Rundad fasad i mörkt tegel</span><span class="work__tag">Murverk</span></span>
+          </a>
+          <a class="work" data-reveal style="--i:0" href="assets/img/arbete-tegelmur.webp" data-lightbox data-caption="Arbete på en gammal tegelmur">
+            <span class="work__frame"><img src="assets/img/arbete-tegelmur.webp" width="720" height="960" loading="lazy" alt="Teodor arbetar på en gammal tegelmur en solig dag"></span>
+            <span class="work__cap"><span>Arbete på en gammal tegelmur</span><span class="work__tag">Murverk</span></span>
+          </a>
+          <a class="work" data-reveal style="--i:1" href="assets/img/arbete-puts-profil.webp" data-lightbox data-caption="Profilerad puts, närbild">
+            <span class="work__frame"><img src="assets/img/arbete-puts-profil.webp" width="720" height="960" loading="lazy" alt="Närbild på profilerade putslister i grå puts"></span>
+            <span class="work__cap"><span>Profilerad puts, närbild</span><span class="work__tag">Puts</span></span>
+          </a>
+          <a class="work" data-reveal style="--i:2" href="assets/img/arbete-skorstenskrona.webp" data-lightbox data-caption="Skorstenskrona under arbete">
+            <span class="work__frame"><img src="assets/img/arbete-skorstenskrona.webp" width="720" height="960" loading="lazy" alt="Putsad skorstenskrona med sex rökkanaler, sedd ovanifrån"></span>
+            <span class="work__cap"><span>Skorstenskrona under arbete</span><span class="work__tag">Skorsten</span></span>
+          </a>
+          <a class="work" data-reveal style="--i:3" href="assets/img/arbete-murslev.webp" data-lightbox data-caption="Murslev i nytt bruk">
+            <span class="work__frame"><img src="assets/img/arbete-murslev.webp" width="720" height="960" loading="lazy" alt="Murslev som vilar i grovt, nyblandat bruk"></span>
+            <span class="work__cap"><span>Murslev i nytt bruk</span><span class="work__tag">Mur &amp; puts</span></span>
+          </a>
+          <a class="work" data-reveal style="--i:0" href="assets/img/arbete-verktyg.webp" data-lightbox data-caption="Verktygen på plats">
+            <span class="work__frame"><img src="assets/img/arbete-verktyg.webp" width="720" height="960" loading="lazy" alt="Hammare, murslev och tumstock på ett murkrön under renovering"></span>
+            <span class="work__cap"><span>Verktygen på plats</span><span class="work__tag">Renovering</span></span>
+          </a>
+        </div>
+      </div>
+
+      <div class="wrap slider__bar">
+        <div class="slider__progress" aria-hidden="true"><span></span></div>
+        <p class="slider__count" aria-hidden="true"><b>01</b> / 09</p>
+        <div class="slider__nav">
+          <button class="slider__btn" type="button" data-dir="-1" aria-label="Föregående bilder">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <button class="slider__btn" type="button" data-dir="1" aria-label="Nästa bilder">
+            <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg>
+          </button>
+        </div>
+        <a class="slider__more" href="https://www.instagram.com/givellskakelugnsmakeri" rel="noopener" target="_blank">
+          <svg class="icon" aria-hidden="true"><use href="#i-instagram"/></svg>
+          Fler på Instagram
+        </a>
+      </div>
+    </section>
+
+    <!-- Kakelugnen i 3D: en riktig 3D-modell (explore.js) som tas isär när man scrollar -->
+    <section class="explore" id="kakelugnen" aria-labelledby="explore-rubrik" data-embers>
+      <div class="explore__track">
+        <div class="explore__sticky">
+          <div class="wrap explore__layout">
+            <div class="explore__panel">
+              <p class="label">Utforska i 3D</p>
+              <h2 id="explore-rubrik" class="explore__title">Inuti en kakelugn</h2>
+
+              <ol class="explore__chapters">
+                <li class="explore__chapter is-active" data-chapter="0">
+                  <span class="explore__num">01 / Helheten</span>
+                  <h3>Mer än vackert kakel</h3>
+                  <p>Utanpå syns det glaserade kaklet och mässingen. Innanför arbetar tegel, bruk och kanaler tillsammans för att hålla värmen kvar i rummet.</p>
+                </li>
+                <li class="explore__chapter" data-chapter="1">
+                  <span class="explore__num">02 / Kaklet</span>
+                  <h3>Glaserat kakel, bit för bit</h3>
+                  <p>Kaklet är ugnens ansikte. Vi tar ner, rengör, lagar och sätter om det, och bättrar dekormålningen där det behövs.</p>
+                </li>
+                <li class="explore__chapter" data-chapter="2">
+                  <span class="explore__num">03 / Kärnan</span>
+                  <h3>Värmen tar omvägen</h3>
+                  <p>Innanför kaklet finns murat tegel och flera rökkanaler. Röken leds upp och ner genom kanalerna innan den når skorstenen, och värmer murverket på vägen. Tekniken har använts i svenska kakelugnar sedan 1700-talet.</p>
+                </li>
+                <li class="explore__chapter" data-chapter="3">
+                  <span class="explore__num">04 / Värmen</span>
+                  <h3>Värme som stannar kvar</h3>
+                  <p>Det varma murverket avger värmen långsamt, långt efter att elden har slocknat, så länge allt är tätt och rätt murat.</p>
+                  <a class="btn btn--ember" href="#kontakt" data-topic="Kakelugnar" data-offer>
+                    Fråga om din kakelugn
+                    <svg class="icon icon--arrow" aria-hidden="true"><use href="#i-arrow"/></svg>
+                  </a>
+                </li>
+              </ol>
+
+              <div class="explore__steps" role="group" aria-label="Kapitel">
+                <button type="button" data-goto="0" aria-label="Kapitel 1: Helheten"><span>01</span><i></i></button>
+                <button type="button" data-goto="1" aria-label="Kapitel 2: Kaklet"><span>02</span><i></i></button>
+                <button type="button" data-goto="2" aria-label="Kapitel 3: Kärnan"><span>03</span><i></i></button>
+                <button type="button" data-goto="3" aria-label="Kapitel 4: Värmen"><span>04</span><i></i></button>
+              </div>
+            </div>
+
+            <div class="explore__stage">
+              <canvas class="explore__canvas" aria-hidden="true"></canvas>
+              <div class="explore__labels" aria-hidden="true"></div>
+              <p class="explore__loading" aria-hidden="true"><span></span>Bygger kakelugnen…</p>
+              <img class="explore__fallback" src="assets/img/hero-kakelugn.webp" width="739" height="1024" loading="lazy"
+                   alt="Vit kakelugn med mässingsluckor" hidden>
+              <p class="explore__hint" aria-hidden="true">
+                <svg viewBox="0 0 24 24" class="icon"><path d="M4 12h16M8 8l-4 4 4 4M16 8l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Dra för att vrida kakelugnen
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Om -->
+    <section class="section section--kakel" id="om" aria-labelledby="om-rubrik">
+      <div class="wrap about">
+        <figure class="about__visual" data-reveal>
+          <div class="arch-frame arch-frame--light">
+            <div class="arch">
+              <img src="assets/img/teodor-portratt.webp" width="677" height="960" loading="lazy"
+                   alt="Teodor Ramirez Givell sitter i bakluckan på en bil framför en tegelmur">
+            </div>
+          </div>
+        </figure>
+
+        <div class="about__text" data-reveal style="--i:1">
+          <p class="label">Om Givells</p>
+          <h2 id="om-rubrik">Teodor Ramirez Givell</h2>
+          <p class="about__role">Kakelugnsmakare/murare</p>
+
+          <blockquote class="quote">
+            <p data-words>”Med 13 års erfarenhet av byggbranschen som utbildad murare och kakelugnsmakare kan jag erbjuda en rad olika typer av arbeten. Jag brinner lite extra för kakelugnar och andra kulturarbeten men finner glädje i hantverket och ser alltid till att både jag själv och ni som kund är nöjda med slutresultatet.”</p>
+          </blockquote>
+
+          <p class="about__company">På Givells Kakelugnsmakeri &amp; Murverk kombinerar vi traditionellt hantverk med modern expertis. Med starkt engagemang för kvalitet och hållbarhet arbetar vi för att bevara kulturarv och skapa värdefulla lösningar för varje kund.</p>
+
+          <div class="about__cta">
+            <p>”Kontakta mig vid frågor eller önskan om en kostnadsfri offert/konsultation.”</p>
+            <div class="actions">
+              <a class="btn btn--ember" href="tel:+46733003228">
+                <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
+                Ring Teodor
+              </a>
+              <a class="btn btn--ghost btn--ghost-dark" href="mailto:teodor@givellskakelugnsmakeri.se">
+                <svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg>
+                Skicka mejl
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kontakt -->
+    <section class="section section--contact" id="kontakt" aria-labelledby="kontakt-rubrik" data-embers>
+      <div class="wrap contact">
+        <div class="contact__info" data-reveal>
+          <p class="label">Kontakt</p>
+          <h2 id="kontakt-rubrik">Berätta vad du vill ha gjort</h2>
+          <p class="contact__lead">Ring, mejla eller skicka en förfrågan. Offert och konsultation är kostnadsfria.</p>
+
+          <a class="contact__phone" href="tel:+46733003228">073-300 32 28</a>
+
+          <dl class="contact__list">
+            <div><dt>Telefon</dt><dd><a href="tel:+4626102929">026-10 29 29</a></dd></div>
+            <div><dt>E-post</dt><dd><a href="mailto:teodor@givellskakelugnsmakeri.se">teodor@givellskakelugnsmakeri.se</a></dd></div>
+            <div><dt>Område</dt><dd>Gävleborg</dd></div>
+          </dl>
+
+          <ol class="steps">
+            <li><span>Du hör av dig och berättar kort vad det gäller.</span></li>
+            <li><span>Vi går igenom jobbet tillsammans och du får en kostnadsfri offert.</span></li>
+            <li><span>Arbetet utförs, med omsorg om både huset och materialen.</span></li>
+          </ol>
+
+          <button class="btn btn--ember btn--block contact__open" type="button" data-offer>
+            <svg class="icon" aria-hidden="true"><use href="#i-quote"/></svg>
+            Skicka en förfrågan
+          </button>
+        </div>
+
+        <!--
+          Formuläret: sätt data-endpoint till en riktig mottagare (t.ex. Formspree eller egen backend)
+          när Teodor har bekräftat vart förfrågningarna ska. Utan endpoint öppnas besökarens
+          e-postprogram med förfrågan ifylld, adresserad till teodor@givellskakelugnsmakeri.se.
+        -->
+        <span class="form-home" hidden></span>
+        <form class="form" data-reveal style="--i:1" id="offertformular" data-endpoint="" data-mailto="teodor@givellskakelugnsmakeri.se"
+              action="mailto:teodor@givellskakelugnsmakeri.se?subject=F%C3%B6rfr%C3%A5gan%20via%20webbplatsen"
+              method="post" enctype="text/plain">
+          <h3 class="form__title">Skicka en förfrågan</h3>
+
+          <div class="form__row">
+            <label class="field">
+              <span>Namn <abbr title="obligatoriskt">*</abbr></span>
+              <input type="text" name="namn" autocomplete="name" required>
+            </label>
+            <label class="field">
+              <span>Telefon <abbr title="obligatoriskt">*</abbr></span>
+              <input type="tel" name="telefon" autocomplete="tel" required>
+            </label>
+          </div>
+
+          <div class="form__row">
+            <label class="field">
+              <span>E-post</span>
+              <input type="email" name="epost" autocomplete="email">
+            </label>
+            <label class="field">
+              <span>Var ligger huset?</span>
+              <input type="text" name="ort" autocomplete="address-level2" placeholder="T.ex. Gävle">
+            </label>
+          </div>
+
+          <label class="field">
+            <span>Vad gäller det?</span>
+            <select name="amne" id="amne">
+              <option value="">Välj ett alternativ</option>
+              <option>Kakelugnar</option>
+              <option>Skorstensarbeten</option>
+              <option>Mur- och putsarbeten</option>
+              <option>Annat / vet inte</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span>Meddelande</span>
+            <textarea name="meddelande" rows="3" placeholder="Beskriv kort vad du vill ha gjort."></textarea>
+          </label>
+
+          <label class="form__trap" aria-hidden="true">
+            Lämna tomt <input type="text" name="_gotcha" tabindex="-1" autocomplete="off">
+          </label>
+
+          <p class="form__note">Vi använder uppgifterna bara för att svara på din förfrågan.</p>
+
+          <button class="btn btn--ember btn--block" type="submit">
+            Skicka förfrågan
+            <svg class="icon icon--arrow" aria-hidden="true"><use href="#i-arrow"/></svg>
+          </button>
+
+          <p class="form__status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" data-embers>
+    <div class="wrap footer-cta" data-reveal>
+      <div>
+        <p class="label">Nästa steg</p>
+        <h2 class="footer-cta__title">Har du en kakelugn eller ett murverk som behöver omsorg?</h2>
+      </div>
+      <div class="footer-cta__actions">
+        <a class="footer-cta__phone" href="tel:+46733003228">
+          <span class="footer-cta__icon" aria-hidden="true"><svg class="icon"><use href="#i-phone"/></svg></span>
+          <span class="footer-cta__text">
+            <span class="footer-cta__small">Ring Teodor direkt</span>
+            <span class="footer-cta__num">073-300 32 28</span>
+          </span>
+        </a>
+        <a class="btn btn--ember" href="#kontakt" data-offer>
+          Begär kostnadsfri offert
+          <svg class="icon icon--arrow" aria-hidden="true"><use href="#i-arrow"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="wrap site-footer__grid">
+      <div class="site-footer__brand">
+        <img src="assets/img/logo.png" width="480" height="556" loading="lazy" alt="Givells Kakelugnsmakeri &amp; Murverk">
+        <p>Kakelugnar, skorstensarbeten samt mur- och putsarbeten. Hantverk med passion och precision.</p>
+        <p class="site-footer__area">
+          <svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>
+          Verksamma i hela Gävleborg
+        </p>
+      </div>
+
+      <nav class="site-footer__col" aria-label="Sidfot">
+        <h3 class="site-footer__heading">Utforska</h3>
+        <ul class="site-footer__links">
+          <li><a href="#tjanster">Tjänster</a></li>
+          <li><a href="#arbeten">Arbeten</a></li>
+          <li><a href="#kakelugnen">Kakelugnen i 3D</a></li>
+          <li><a href="#om">Om Teodor</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+      </nav>
+
+      <div class="site-footer__col">
+        <h3 class="site-footer__heading">Tjänster</h3>
+        <ul class="site-footer__links">
+          <li><a href="#kontakt" data-topic="Kakelugnar" data-offer>Kakelugnar</a></li>
+          <li><a href="#kontakt" data-topic="Skorstensarbeten" data-offer>Skorstensarbeten</a></li>
+          <li><a href="#kontakt" data-topic="Mur- och putsarbeten" data-offer>Mur- och putsarbeten</a></li>
+        </ul>
+      </div>
+
+      <div class="site-footer__col">
+        <h3 class="site-footer__heading">Kontakt</h3>
+        <ul class="site-footer__links">
+          <li><a href="tel:+46733003228">073-300 32 28</a></li>
+          <li><a href="tel:+4626102929">026-10 29 29</a></li>
+          <li><a href="mailto:teodor@givellskakelugnsmakeri.se">teodor@givellskakelugnsmakeri.se</a></li>
+        </ul>
+        <a class="site-footer__social" href="https://www.instagram.com/givellskakelugnsmakeri" rel="noopener" target="_blank" aria-label="Givells på Instagram">
+          <svg class="icon" aria-hidden="true"><use href="#i-instagram"/></svg>
+          @givellskakelugnsmakeri
+        </a>
+      </div>
+    </div>
+
+    <div class="wrap site-footer__word" aria-hidden="true" data-reveal>
+      <!-- Ordmärket: konturen ritas, värmen stiger i bokstäverna, ett ljussvep och en "fackla" som följer pekaren -->
+      <svg class="wordmark" viewBox="0 0 1200 220" preserveAspectRatio="xMidYMid meet" focusable="false">
+        <defs>
+          <linearGradient id="wm-heat" x1="0" y1="1" x2="0" y2="0">
+            <stop offset="0" class="wm-stop-strong"/>
+            <stop offset="0.55" class="wm-stop-soft"/>
+            <stop offset="1" class="wm-stop-none"/>
+          </linearGradient>
+          <linearGradient id="wm-shine" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+            <stop offset="0.5" stop-color="#fff" stop-opacity="0.55"/>
+            <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+          </linearGradient>
+          <radialGradient id="wm-torch">
+            <stop offset="0" class="wm-stop-torch"/>
+            <stop offset="1" class="wm-stop-none"/>
+          </radialGradient>
+          <mask id="wm-letters" maskUnits="userSpaceOnUse" x="0" y="0" width="1200" height="220">
+            <text class="wm-text" x="600" y="212" text-anchor="middle" textLength="1188" lengthAdjust="spacing" fill="#fff">GIVELLS</text>
+          </mask>
+        </defs>
+        <g mask="url(#wm-letters)">
+          <rect class="wm-heat" x="0" y="0" width="1200" height="220" fill="url(#wm-heat)"/>
+          <rect class="wm-shine" x="-420" y="0" width="320" height="220" fill="url(#wm-shine)"/>
+          <circle class="wm-torch" cx="-300" cy="110" r="190" fill="url(#wm-torch)"/>
+        </g>
+        <text class="wm-text wm-stroke" x="600" y="212" text-anchor="middle" textLength="1188" lengthAdjust="spacing">GIVELLS</text>
+      </svg>
+    </div>
+
+    <div class="wrap site-footer__bottom">
+      <p>© <span data-year>2026</span> Givells Kakelugnsmakeri och murverk AB · Org.nr 559492-2238</p>
+      <a class="to-top" href="#top">
+        Till toppen
+        <span class="to-top__icon" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24"><path d="M12 19V5M6 11l6-6 6 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      </a>
+    </div>
+  </footer>
+
+  <!-- Offertformuläret som ett panel nerifrån på telefoner (formuläret flyttas hit när det öppnas) -->
+  <dialog class="sheet" id="offert" aria-labelledby="sheet-rubrik">
+    <div class="sheet__panel">
+      <div class="sheet__grab" aria-hidden="true"><span></span></div>
+      <div class="sheet__head">
+        <div>
+          <p class="label">Kostnadsfri offert</p>
+          <h2 id="sheet-rubrik">Berätta om ditt projekt</h2>
+        </div>
+        <button class="sheet__close" type="button" aria-label="Stäng">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        </button>
+      </div>
+      <div class="sheet__body"></div>
+      <a class="sheet__call" href="tel:+46733003228">
+        <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
+        Hellre prata direkt? Ring <strong>073-300 32 28</strong>
+      </a>
+    </div>
+  </dialog>
+
+  <!-- Snabbknappar längst ned på telefoner, visas när man scrollat förbi första skärmen -->
+  <div class="action-bar" aria-label="Snabbkontakt">
+    <a class="action-bar__call" href="tel:+46733003228">
+      <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
+      Ring
+    </a>
+    <a class="action-bar__quote" href="#kontakt" data-offer>
+      <svg class="icon" aria-hidden="true"><use href="#i-quote"/></svg>
+      Begär kostnadsfri offert
+    </a>
+  </div>
+
+  <dialog class="lightbox on-dark" aria-label="Bildvisning">
+    <figure class="lightbox__figure">
+      <img class="lightbox__img" src="" alt="">
+      <figcaption class="lightbox__cap"></figcaption>
+    </figure>
+    <button class="lightbox__btn lightbox__close" type="button" aria-label="Stäng">×</button>
+    <button class="lightbox__btn lightbox__prev" type="button" aria-label="Föregående">‹</button>
+    <button class="lightbox__btn lightbox__next" type="button" aria-label="Nästa">›</button>
+  </dialog>
+
+  <script src="main.js" defer></script>
+  <script src="motion.js" defer></script>
+  <script src="embers.js" defer></script>
+  <script src="explore.js" type="module"></script>
+</body>
+</html>
